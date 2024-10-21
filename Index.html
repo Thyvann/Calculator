@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="clearDisplay()" class="orange-keys">C</button>
+            <button onclick="del()" class="orange-keys">C</button>
+            <button onclick="mainKeys('%')" class="orange-keys">%</button>
+            <button onclick="mainKeys('/')" class="orange-keys">/</button>
+            <button onclick="mainKeys('7')">7</button>
+            <button onclick="mainKeys('8')">8</button>
+            <button onclick="mainKeys('9')">9</button>
+            <button onclick="mainKeys('*')" class="orange-keys">X</button>
+            <button onclick="mainKeys('4')">4</button>
+            <button onclick="mainKeys('5')">5</button>
+            <button onclick="mainKeys('6')">6</button>
+            <button onclick="mainKeys('-')" class="orange-keys">-</button>
+            <button onclick="mainKeys('1')">1</button>
+            <button onclick="mainKeys('2')">2</button>
+            <button onclick="mainKeys('3')">3</button>
+            <button onclick="mainKeys('+')" class="orange-keys">+</button>
+            <button onclick="mainKeys('0')">0</button>
+            <button onclick="mainKeys(',')">,</button>
+            <button onclick="calculate()" class="orange-keys">=</button>
+        </div>
+    </div>
+    <script src="Index.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+html{
+    background-color: #111111;
+}
+
+#calculator{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display{
+    width: 17.5em;
+    height: 5em;
+    color: #0f0f0f;
+}
+
+#keys{
+    width: 15em;
+    height: 20em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5.4, 1fr);
+    
+}
+
+.orange-keys{
+ background-color: #0f0f0f;
+ color: orangered;  
+}
